@@ -1,6 +1,7 @@
 plugins {
 	id 'fabric-loom' version '0.2.5-SNAPSHOT'
 	id 'maven-publish'
+	id "gradle-clojure.clojure" version "0.5.0-alpha.1"
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
@@ -24,6 +25,7 @@ dependencies {
 
 	// PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.
 	// You may need to force-disable transitiveness on them.
+	implementation 'org.clojure:clojure:1.10.0'
 }
 
 processResources {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "stupidmod",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -22,10 +22,6 @@
       "net.fabricmc.example.ExampleMod"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
   "depends": {
     "fabricloader": ">=0.4.0",
     "fabric": "*"
