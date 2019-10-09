@@ -1,0 +1,1 @@
+(ns info.mcmod)
